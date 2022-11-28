@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.SignalR" Version="1.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\D0JAQL_HFT_2021222.Data\D0JAQL_HFT_2021222.Data.csproj" />
+    <ProjectReference Include="..\D0JAQL_HFT_2021222.Logic\D0JAQL_HFT_2021222.Logic.csproj" />
+    <ProjectReference Include="..\D0JAQL_HFT_2021222.Models\D0JAQL_HFT_2021222.Models.csproj" />
+    <ProjectReference Include="..\D0JAQL_HFT_2021222.Repository\D0JAQL_HFT_2021222.Repository.csproj" />
+  </ItemGroup>
+
+</Project>

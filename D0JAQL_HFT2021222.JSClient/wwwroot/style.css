@@ -1,0 +1,34 @@
+﻿table {
+    width: 50%;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 5px;
+    text-align: center;
+}
+
+th {
+    background-color: royalblue;
+    color: white;
+}
+
+label, button, input {
+    margin: 10px;
+    padding: 7px;
+}
+
+#updateformdiv {
+    display: none;
+}
+
+label {
+    font-weight: bolder;
+}

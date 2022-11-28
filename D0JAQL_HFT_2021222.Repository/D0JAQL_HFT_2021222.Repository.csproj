@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\D0JAQL_HFT_2021222.Data\D0JAQL_HFT_2021222.Data.csproj" />
+    <ProjectReference Include="..\D0JAQL_HFT_2021222.Models\D0JAQL_HFT_2021222.Models.csproj" />
+  </ItemGroup>
+
+</Project>
